@@ -291,7 +291,7 @@ Partial Class CarMain
         '
         Me.CarPic.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.CarPic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.CarPic.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CarPic.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.CarPic.Location = New System.Drawing.Point(317, 114)
         Me.CarPic.Name = "CarPic"
         Me.CarPic.Size = New System.Drawing.Size(259, 191)

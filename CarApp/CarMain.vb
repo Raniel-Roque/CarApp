@@ -134,10 +134,6 @@
         Calculate()
     End Sub
 
-    Private Sub CarPic_Click(sender As Object, e As EventArgs) Handles CarPic.Click
-        MsgBox("HELLO")
-    End Sub
-
     Private Sub Reset_Click(sender As Object, e As EventArgs) Handles Reset.Click
         Resetting = True
         Price.Clear()
@@ -151,5 +147,35 @@
         CarBrand1.Image = Nothing
         CarPic.Image = Nothing
         Resetting = False
+    End Sub
+    Dim Bought_Car_Form1 As BoughtCar
+    Private Sub Buy_Click(sender As Object, e As EventArgs) Handles Buy.Click
+        If CarBrand.SelectedIndex = -1 OrElse Car.SelectedIndex = -1 Or YearsToPay.Text = Nothing Then
+            MessageBox.Show("Please Fill in the Missing Information", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        GlobalData.Brand = CarBrand.Text
+        GlobalData.Model = Car.Text
+        GlobalData.Price = Price.Text
+        GlobalData.Years = YearsToPay.Text
+        GlobalData.AnnualInterest = Interest.Text
+        GlobalData.TotalPrice = TotalPrice.Text
+        GlobalData.MonthlyDues = MonthlyDue.Text
+
+        If Bought_Car_Form1 Is Nothing Then
+            Bought_Car_Form1 = New BoughtCar
+        End If
+        Bought_Car_Form1.Show()
+        Me.Close()
+    End Sub
+    Dim Load_Main As LoadCar
+    Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
+        ' Goes to Loading
+        If Load_Main Is Nothing Then
+            Load_Main = New LoadCar
+        End If
+        Load_Main.Show()
+        Me.Close()
     End Sub
 End Class

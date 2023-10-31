@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Vehicle Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vehicle Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Kia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toyota" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toyota.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Nissan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nissan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KRio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KRio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TAtlis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TAtlis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +145,14 @@
   <data name="TCamry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TCamry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NPatrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NPatrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NSentro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NSentro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAR_RECEIPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAR_RECEIPT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toyota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toyota.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TAvanza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TAvanza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,10 +160,10 @@
   <data name="KSorento" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KSorento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="KRio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KRio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NPatrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPatrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NSentro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NSentro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CarLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarLoad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
