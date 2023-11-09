@@ -46,17 +46,17 @@ Partial Class BoughtCar
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(57, 134)
+        Me.Label4.Location = New System.Drawing.Point(55, 131)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 23)
+        Me.Label4.Size = New System.Drawing.Size(63, 30)
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "Name:"
         '
         'Name
         '
-        Me.Name.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Name.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name.Location = New System.Drawing.Point(124, 131)
         Me.Name.Name = "Name"
         Me.Name.Size = New System.Drawing.Size(199, 26)
@@ -66,11 +66,11 @@ Partial Class BoughtCar
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("HP Simplified", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Myanmar Text", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(2, 98)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(168, 25)
+        Me.Label5.Size = New System.Drawing.Size(191, 37)
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "Basic Information"
         '
@@ -78,17 +78,17 @@ Partial Class BoughtCar
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(12, 166)
+        Me.Label1.Location = New System.Drawing.Point(9, 164)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(106, 23)
+        Me.Label1.Size = New System.Drawing.Size(109, 30)
         Me.Label1.TabIndex = 15
         Me.Label1.Text = "Phone Num:"
         '
         'PhoneNum
         '
-        Me.PhoneNum.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PhoneNum.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PhoneNum.Location = New System.Drawing.Point(124, 163)
         Me.PhoneNum.MaxLength = 11
         Me.PhoneNum.Name = "PhoneNum"
@@ -99,17 +99,17 @@ Partial Class BoughtCar
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(59, 198)
+        Me.Label2.Location = New System.Drawing.Point(60, 195)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 23)
+        Me.Label2.Size = New System.Drawing.Size(58, 30)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Email:"
         '
         'Email
         '
-        Me.Email.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Email.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Email.Location = New System.Drawing.Point(124, 195)
         Me.Email.Name = "Email"
         Me.Email.Size = New System.Drawing.Size(199, 26)
@@ -117,7 +117,7 @@ Partial Class BoughtCar
         '
         'Address
         '
-        Me.Address.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Address.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Address.Location = New System.Drawing.Point(124, 227)
         Me.Address.Name = "Address"
         Me.Address.Size = New System.Drawing.Size(199, 26)
@@ -127,11 +127,11 @@ Partial Class BoughtCar
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(40, 230)
+        Me.Label3.Location = New System.Drawing.Point(41, 227)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 23)
+        Me.Label3.Size = New System.Drawing.Size(77, 30)
         Me.Label3.TabIndex = 19
         Me.Label3.Text = "Address:"
         '
@@ -230,10 +230,10 @@ Partial Class BoughtCar
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PhoneNum)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Name)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label5)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Car Receipt"

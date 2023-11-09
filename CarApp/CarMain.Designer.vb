@@ -74,8 +74,8 @@ Partial Class CarMain
         '
         'Price
         '
-        Me.Price.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Price.Location = New System.Drawing.Point(148, 114)
+        Me.Price.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Price.Location = New System.Drawing.Point(146, 114)
         Me.Price.Name = "Price"
         Me.Price.ReadOnly = True
         Me.Price.Size = New System.Drawing.Size(163, 26)
@@ -83,8 +83,8 @@ Partial Class CarMain
         '
         'YearsToPay
         '
-        Me.YearsToPay.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.YearsToPay.Location = New System.Drawing.Point(148, 147)
+        Me.YearsToPay.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.YearsToPay.Location = New System.Drawing.Point(146, 147)
         Me.YearsToPay.MaxLength = 3
         Me.YearsToPay.Name = "YearsToPay"
         Me.YearsToPay.Size = New System.Drawing.Size(163, 26)
@@ -92,8 +92,8 @@ Partial Class CarMain
         '
         'Interest
         '
-        Me.Interest.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Interest.Location = New System.Drawing.Point(148, 179)
+        Me.Interest.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Interest.Location = New System.Drawing.Point(146, 179)
         Me.Interest.Name = "Interest"
         Me.Interest.ReadOnly = True
         Me.Interest.Size = New System.Drawing.Size(163, 26)
@@ -101,8 +101,8 @@ Partial Class CarMain
         '
         'TotalPrice
         '
-        Me.TotalPrice.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TotalPrice.Location = New System.Drawing.Point(148, 211)
+        Me.TotalPrice.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TotalPrice.Location = New System.Drawing.Point(146, 211)
         Me.TotalPrice.Name = "TotalPrice"
         Me.TotalPrice.ReadOnly = True
         Me.TotalPrice.Size = New System.Drawing.Size(163, 26)
@@ -110,8 +110,8 @@ Partial Class CarMain
         '
         'MonthlyDue
         '
-        Me.MonthlyDue.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MonthlyDue.Location = New System.Drawing.Point(148, 243)
+        Me.MonthlyDue.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MonthlyDue.Location = New System.Drawing.Point(146, 243)
         Me.MonthlyDue.Name = "MonthlyDue"
         Me.MonthlyDue.ReadOnly = True
         Me.MonthlyDue.Size = New System.Drawing.Size(163, 26)
@@ -157,11 +157,11 @@ Partial Class CarMain
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("HP Simplified", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Myanmar Text", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(6, 42)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(114, 28)
+        Me.Label2.Size = New System.Drawing.Size(119, 37)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Car Brand:"
         '
@@ -169,11 +169,11 @@ Partial Class CarMain
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("HP Simplified", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Myanmar Text", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(312, 42)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(50, 28)
+        Me.Label3.Size = New System.Drawing.Size(55, 37)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Car:"
         '
@@ -197,11 +197,11 @@ Partial Class CarMain
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(59, 114)
+        Me.Label4.Location = New System.Drawing.Point(55, 114)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(83, 23)
+        Me.Label4.Size = New System.Drawing.Size(85, 30)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Car Price:"
         '
@@ -209,11 +209,11 @@ Partial Class CarMain
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(19, 147)
+        Me.Label5.Location = New System.Drawing.Point(17, 147)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(123, 23)
+        Me.Label5.Size = New System.Drawing.Size(123, 30)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Year(s) To Pay:"
         '
@@ -221,11 +221,11 @@ Partial Class CarMain
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(7, 179)
+        Me.Label6.Location = New System.Drawing.Point(6, 179)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(135, 23)
+        Me.Label6.Size = New System.Drawing.Size(134, 30)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Annual Interest:"
         '
@@ -233,11 +233,11 @@ Partial Class CarMain
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(46, 211)
+        Me.Label8.Location = New System.Drawing.Point(43, 211)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(96, 23)
+        Me.Label8.Size = New System.Drawing.Size(97, 30)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Total Price:"
         '
@@ -245,11 +245,11 @@ Partial Class CarMain
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Myanmar Text", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(20, 243)
+        Me.Label7.Location = New System.Drawing.Point(17, 243)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(122, 23)
+        Me.Label7.Size = New System.Drawing.Size(123, 30)
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Monthly Dues:"
         '
@@ -271,7 +271,7 @@ Partial Class CarMain
         '
         'CarBrand1
         '
-        Me.CarBrand1.Location = New System.Drawing.Point(368, 42)
+        Me.CarBrand1.Location = New System.Drawing.Point(373, 42)
         Me.CarBrand1.Name = "CarBrand1"
         Me.CarBrand1.Size = New System.Drawing.Size(32, 28)
         Me.CarBrand1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -280,7 +280,7 @@ Partial Class CarMain
         '
         'CarBrand0
         '
-        Me.CarBrand0.Location = New System.Drawing.Point(126, 42)
+        Me.CarBrand0.Location = New System.Drawing.Point(131, 42)
         Me.CarBrand0.Name = "CarBrand0"
         Me.CarBrand0.Size = New System.Drawing.Size(32, 28)
         Me.CarBrand0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -314,8 +314,6 @@ Partial Class CarMain
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.MonthlyDue)
@@ -326,6 +324,8 @@ Partial Class CarMain
         Me.Controls.Add(Me.Buy)
         Me.Controls.Add(Me.Car)
         Me.Controls.Add(Me.CarBrand)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CarMain"
